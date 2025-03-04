@@ -26,7 +26,7 @@ Permite descomponer una señal en sus componentes de frecuencia, se usa para car
 
 ## Métodos de separación de fuentes 
 - **Análisis de componentes independientes (ICA)**: Es una técnica estadística que se utiliza para separar señales mezcladas en sus componentes originales, suponiendo que estas son estadisticamente independientes entre sí.
-- **Beamforming**:Utiliza matrices de microfonos para enfocar la captación de sonido en una dirección específica, incrementando el SNR de la fuente desead y atenuando fuentes no deseadas
--  **Descomposición en valores singulares (SVD)**: Se utiliza para analizar matrices de datos y encontrar patrones dominantes, pudiendo ser aplicada para separar fuentes de audio
+- **Beamforming**:Utiliza matrices de microfonos para enfocar la captación de sonido en una dirección específica, incrementando el SNR de la fuente deseada y atenuando fuentes no deseadas.
+-  **Descomposición en valores singulares (SVD)**: Se utiliza para analizar matrices de datos y encontrar patrones dominantes, pudiendo ser aplicada para separar fuentes de audio.
 
 
