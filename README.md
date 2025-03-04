@@ -55,9 +55,12 @@ Figura codigo y calculos
 
 -La técnica de analisis de componentes independientes (ICA) permitió descomponer las señales mezcladas en tres componentes separados. Sin embargo las señales resultantes no coinciden exactamente con las señales originales, sino con aproximaciones independientes.
 
--Los valores negativos de la Relación Señal-Ruido (SNR) indican que las señales separadas difieren significamente de los originales, lo que es esperablem dado que ICA separa las fuentes, pero no necesariamente en su forma pura. Esto sugiere que las señales separadas pueden contener combinaciones de ruido y componentes residuales  de otras señales.
+-Los valores negativos de la Relación Señal-Ruido (SNR) indican que las señales separadas difieren significamente de los originales, lo que es esperablem dado que ICA separa las fuentes, pero no necesariamente en su forma pura. Esto sugiere que las señales separadas pueden contener combinaciones de ruido y componentes residuales  de otras señales, puede ser que durante la grabación haya captado ruido ambiental (como sonidos de fondo o interferencias) lo que aumenta la potencia del ruido en relación con la señal deseada, adicionalmente si el ruido es significativo el ICA puede tener dificultades para distinguir entre la señal deseada y el ruido, lo que lleva a valores negativos de SNR. Las señales de voz humana suelen tener componentes espectrales que se superponen en el dominio de la frecuencia, lo que hace que sea dificil separarlas completamente, especialmente si las voces son similares o si hablan al mismo tiempo
 
 -La Transformada Rápida de Fourier (FFT) permitió visualizar las frecuencias dominantes de cada señal, permite  identificar si las señales tienen componentes espectrales bien definidos que podrían aprovecharse para mejorar la separación.
+
+-La calidad de las grabaciones originales pueden afectar el rendimiento del ICA, si las grabaciones tienen un SNR bajo desde el principio, debido a la distancia entre los microfonos y las fuentes sonoras, el ICA no puede recuperar las señales originales de manera efectiva
+
 
 
 
