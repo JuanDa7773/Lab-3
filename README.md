@@ -38,3 +38,9 @@ Figura codigo y calculos
 
 ![WhatsApp Image 2025-03-03 at 9 16 58 PM (2)](https://github.com/user-attachments/assets/95280872-d3b8-4736-b008-80bf4fb69c23)
 ![WhatsApp Image 2025-03-03 at 9 18 46 PM](https://github.com/user-attachments/assets/c771d36a-9499-460d-8c21-fcadf576521e)
+
+## Conclusiones
+
+
+
+
