@@ -29,4 +29,12 @@ Permite descomponer una señal en sus componentes de frecuencia, se usa para car
 - **Beamforming**:Utiliza matrices de microfonos para enfocar la captación de sonido en una dirección específica, incrementando el SNR de la fuente deseada y atenuando fuentes no deseadas.
 -  **Descomposición en valores singulares (SVD)**: Se utiliza para analizar matrices de datos y encontrar patrones dominantes, pudiendo ser aplicada para separar fuentes de audio.
 
+## Resultados 
+![WhatsApp Image 2025-03-03 at 9 15 56 PM](https://github.com/user-attachments/assets/9795c18b-3c34-47cf-a6f7-64472b7aca28)
+Figura codigo y calculos 
+![WhatsApp Image 2025-03-03 at 9 16 58 PM](https://github.com/user-attachments/assets/b32134c0-9ddc-46e3-904b-d54476306ec1)
 
+![WhatsApp Image 2025-03-03 at 9 16 58 PM (1)](https://github.com/user-attachments/assets/e8d09631-99e1-4312-b20f-c37f45f4f6d1)
+
+![WhatsApp Image 2025-03-03 at 9 16 58 PM (2)](https://github.com/user-attachments/assets/95280872-d3b8-4736-b008-80bf4fb69c23)
+![WhatsApp Image 2025-03-03 at 9 18 46 PM](https://github.com/user-attachments/assets/c771d36a-9499-460d-8c21-fcadf576521e)
