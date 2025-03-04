@@ -17,7 +17,7 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 4. Por último, una vez se graban las n voces en un determinado tiempo, se procede a calcular el SNR. Si el SNR de alguna de las señales de audio es bajo, es necesario repetir la medición.
 
 ![image](https://github.com/user-attachments/assets/49f130a4-d141-45c3-a56b-9db25a3da5ff)
-### *Figura 1: Lineas de código para mostrar gráficamente el audio .*
+### *Figura 1: Lineas de código para leer los audios .*
 En el código, el `wavfile` permite leer los archivos de audio que están guardados como WAV. Para que los audios tengan la misma frecuencia de muestreo, se usa la declaración `assert` para verificar la condición que se esta poniendo que para este caso es que todas las frecuencias de muestreo sean iguales.
 
 
