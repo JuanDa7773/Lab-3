@@ -17,7 +17,7 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 4. Por último, una vez se graban las n voces en un determinado tiempo, se procede a calcular el SNR. Si el SNR de alguna de las señales de audio es bajo, es necesario repetir la medición.
 
 ## Requisitos 
-- **Phyton** Instalado en tu sistema.
+- **Python** Instalado en tu sistema.
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
 - **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
 
