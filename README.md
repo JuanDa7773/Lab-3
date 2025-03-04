@@ -19,7 +19,7 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 ## Requisitos 
 - **Phyton** Instalado en tu sistema.
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
-- **Bibliotecas de Python:** `numpy`,`matplotlib`,`wfdb`.
+- **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
 
 ## Análisis Espectral
 Permite descomponer una señal en sus componentes de frecuencia, se usa para caracterizar las distintas fuentes sonoras y buscar patrones que faciliten su separación
