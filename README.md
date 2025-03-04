@@ -22,8 +22,11 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 - **Bibliotecas de Python:** `numpy`,`matplotlib`,`wfdb`.
 
 ## Análisis Espectral
+Permite descomponer una señal en sus componentes de frecuencia, se usa para caracterizar las distintas fuentes sonoras y buscar patrones que faciliten su separación
 
 ## Métodos de separación de fuentes 
 - **Análisis de componentes independientes (ICA)**: Es una técnica estadística que se utiliza para separar señales mezcladas en sus componentes originales, suponiendo que estas son estadisticamente independientes entre sí.
+- **Beamforming**:Utiliza matrices de microfonos para enfocar la captación de sonido en una dirección específica, incrementando el SNR de la fuente desead y atenuando fuentes no deseadas
+-  **Descomposición en valores singulares (SVD)**: Se utiliza para analizar matrices de datos y encontrar patrones dominantes, pudiendo ser aplicada para separar fuentes de audio
 
 
