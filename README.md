@@ -27,6 +27,8 @@ Permite descomponer una señal en sus componentes de frecuencia, se usa para car
 ![image](https://github.com/user-attachments/assets/e19c8a8e-9c12-4e18-9bc4-0ec914194f4c)
 ### *Figura 1: Lineas de código para realizar el análisis espectral.*
 
+![WhatsApp Image 2025-03-03 at 9 16 58 PM](https://github.com/user-attachments/assets/b32134c0-9ddc-46e3-904b-d54476306ec1)
+### *Figura 2: Espectro de frecuencia de cada audio.*
 
 
 ## Métodos de separación de fuentes 
@@ -37,7 +39,7 @@ Permite descomponer una señal en sus componentes de frecuencia, se usa para car
 ## Resultados 
 ![WhatsApp Image 2025-03-03 at 9 15 56 PM](https://github.com/user-attachments/assets/9795c18b-3c34-47cf-a6f7-64472b7aca28)
 Figura codigo y calculos 
-![WhatsApp Image 2025-03-03 at 9 16 58 PM](https://github.com/user-attachments/assets/b32134c0-9ddc-46e3-904b-d54476306ec1)
+
 
 ![WhatsApp Image 2025-03-03 at 9 16 58 PM (1)](https://github.com/user-attachments/assets/e8d09631-99e1-4312-b20f-c37f45f4f6d1)
 
