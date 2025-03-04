@@ -48,8 +48,10 @@ Figura codigo y calculos
 
 ## Conclusiones
 
--La tecnica de analisis de componentes independientes (ICA) permitio descomponer las señales mezcladas en tres componentes separados. Sin embargo las señales resultantes no coinciden exactamente con las señales originales, sino con aproximaciónes independientes.
+-La técnica de analisis de componentes independientes (ICA) permitió descomponer las señales mezcladas en tres componentes separados. Sin embargo las señales resultantes no coinciden exactamente con las señales originales, sino con aproximaciones independientes.
+
 -Los valores negativos de la Relación Señal-Ruido (SNR) indican que las señales separadas difieren significamente de los originales, lo que es esperablem dado que ICA separa las fuentes, pero no necesariamente en su forma pura. Esto sugiere que las señales separadas pueden contener combinaciones de ruido y componentes residuales  de otras señales.
+
 -La Transformada Rápida de Fourier (FFT) permitió visualizar las frecuencias dominantes de cada señal, permite  identificar si las señales tienen componentes espectrales bien definidos que podrían aprovecharse para mejorar la separación.
 
 
