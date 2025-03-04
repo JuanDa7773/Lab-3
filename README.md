@@ -1,5 +1,5 @@
 # Cóctel Lab-3
-Este laboratorio tiene como objetivo aplicar el analisis de frecuencia de las señales de voz en un conjunto de señales que están mezcladas con el fin de adquirir una sola señal entre varias.El código esta implentado en Python y utiliza bibliotecas como `wfdb`, `numpy`,`matplotlib` y `scipy.
+Este laboratorio tiene como objetivo aplicar el analisis de frecuencia de las señales de voz en un conjunto de señales que están mezcladas con el fin de adquirir una sola señal entre varias.El código esta implentado en Python y utiliza bibliotecas como `sklearn`, `numpy`,`matplotlib` y `scipy`.
 ## Tabla de Contenido
 1.[Introducción](#introducción)
 2.[Requisitos](#requisitos)
@@ -16,6 +16,11 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 3. Cada integrante debe hablar durante cierto tiempo y de manera simultánea, como si estuviera en una fiesta de cocteles.
 4. Por último, una vez se graban las n voces en un determinado tiempo, se procede a calcular el SNR. Si el SNR de alguna de las señales de audio es bajo, es necesario repetir la medición.
 
+![image](https://github.com/user-attachments/assets/49f130a4-d141-45c3-a56b-9db25a3da5ff)
+### *Figura 1: Lineas de código para mostrar gráficamente el audio .*
+En el código, el `wavfile` permite leer los archivos de audio que están guardados como WAV. Para que los audios tengan la misma frecuencia de muestreo, se usa la declaración `assert` para verificar la condición que se esta poniendo que para este caso es que todas las frecuencias de muestreo sean iguales.
+
+
 ## Requisitos 
 - **Python** Instalado en tu sistema.
 - **Spyder** (Puedes instalarlo como parte de [Anaconda](https://www.anaconda.com/)).
@@ -25,10 +30,10 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 Permite descomponer una señal en sus componentes de frecuencia, se usa para caracterizar las distintas fuentes sonoras y buscar patrones que faciliten su separación. Se usa tranformada rápida de Fourier (FFT) porque como su nombre lo dice, el algoritmo es más rápido y eficiente, lo que nos permite comparar de cada audio su espectro para identificar que sonidos provienen de qué fuente.
 
 ![image](https://github.com/user-attachments/assets/e19c8a8e-9c12-4e18-9bc4-0ec914194f4c)
-### *Figura 1: Lineas de código para realizar el análisis espectral.*
+### *Figura 3: Lineas de código para realizar el análisis espectral.*
 
 ![WhatsApp Image 2025-03-03 at 9 16 58 PM](https://github.com/user-attachments/assets/b32134c0-9ddc-46e3-904b-d54476306ec1)
-### *Figura 2: Espectro de frecuencia de cada audio.*
+### *Figura 4: Espectro de frecuencia de cada audio.*
 
 
 ## Métodos de separación de fuentes 
