@@ -20,6 +20,8 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 ### *Figura 1: Lineas de código para leer los audios .*
 En el código, el `wavfile` permite leer los archivos de audio que están guardados como WAV. Para que los audios tengan la misma frecuencia de muestreo, se usa la declaración `assert` para verificar la condición que se esta poniendo que para este caso es que todas las frecuencias de muestreo sean iguales.
 
+![WhatsApp Image 2025-03-03 at 9 16 58 PM (2)](https://github.com/user-attachments/assets/95280872-d3b8-4736-b008-80bf4fb69c23)
+### *Figura 2: Gráfica de los audios.*
 
 ## Requisitos 
 - **Python** Instalado en tu sistema.
@@ -48,7 +50,7 @@ Figura codigo y calculos
 
 ![WhatsApp Image 2025-03-03 at 9 16 58 PM (1)](https://github.com/user-attachments/assets/e8d09631-99e1-4312-b20f-c37f45f4f6d1)
 
-![WhatsApp Image 2025-03-03 at 9 16 58 PM (2)](https://github.com/user-attachments/assets/95280872-d3b8-4736-b008-80bf4fb69c23)
+
 ![WhatsApp Image 2025-03-03 at 9 18 46 PM](https://github.com/user-attachments/assets/c771d36a-9499-460d-8c21-fcadf576521e)
 
 ## Conclusiones
