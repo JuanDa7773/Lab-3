@@ -22,7 +22,12 @@ El laboratorio recibe el nombre de Coctel haciendo referencia a el problema de *
 - **Bibliotecas de Python:** `numpy`,`matplotlib.pyplot`,`scipy`,`sklearn`.
 
 ## Análisis Espectral
-Permite descomponer una señal en sus componentes de frecuencia, se usa para caracterizar las distintas fuentes sonoras y buscar patrones que faciliten su separación
+Permite descomponer una señal en sus componentes de frecuencia, se usa para caracterizar las distintas fuentes sonoras y buscar patrones que faciliten su separación. Se usa tranformada rápida de Fourier (FFT) porque como su nombre lo dice, el algoritmo es más rápido y eficiente, lo que nos permite comparar de cada audio su espectro para identificar que sonidos provienen de qué fuente.
+
+![image](https://github.com/user-attachments/assets/e19c8a8e-9c12-4e18-9bc4-0ec914194f4c)
+### *Figura 1: Lineas de código para realizar el análisis espectral.*
+
+
 
 ## Métodos de separación de fuentes 
 - **Análisis de componentes independientes (ICA)**: Es una técnica estadística que se utiliza para separar señales mezcladas en sus componentes originales, suponiendo que estas son estadisticamente independientes entre sí.
